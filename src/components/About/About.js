@@ -47,10 +47,10 @@ function About() {
 
         <Techstack />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="teal">I</strong> Can Use
-        </h1>
-        <Toolstack />
+        </h1> */}
+        {/* <Toolstack /> */}
 
         <Github />
       </Container>

@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Salus from "../../Assets/Projects/Salus.png";
+import weather from "../../Assets/Projects/weather.png";
 import TheGeekly from "../../Assets/Projects/TheGeekly.png";
-import CarboTrack from "../../Assets/Projects/CarboTrack.png";
-import Sched from "../../Assets/Projects/Sched.png";
-import Aprendiz from "../../Assets/Projects/Aprendiz.png";
+import Brightline from "../../Assets/Projects/brightline.png"
+import Shaplink from "../../Assets/Projects/shapelink.png";
+import yoox from "../../Assets/Projects/yoox.png";
 
 function Projects() {
   return (
@@ -14,7 +14,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="teal">Projects, Certifications & Awards</strong>
+          My Recent <strong className="teal">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few things I've worked on recently.
@@ -22,57 +22,62 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CarboTrack}
+              imgPath={Brightline}
               isBlog={false}
-              title="CarboTrack"
-              description="CarboTrack is a web application that allows the user to track their carbon footprint based on electricity usage, transportation, and food consumption. My team and I used tensorflow.js to allow for taking pictures of various items to determine their carbon footpring. The result can then be copied to the clipboard and shared through emojis. This was built in 24 hours' time and my team (NextGen) won second prize in SISHACK."
-              ghLink="https://github.com/Dhruvsr/CarboTrack"
-              demoLink="https://dhruv.is-from.space/CarboTrack_Demo.MP4"
+              title="Brightline"
+              description="Brightline is the first behavioral health solution designed specifically to support children and families with whatever tough stuff they’re dealing with in their busy lives.
+
+              With innovative technology, evidence-based care, and support for the whole family at every step, Brightline is transforming the care experience for families as we know it."
+              techstack="Javascript | React | Chakra-Ui"
+              ghLink="https://github.com/vikalp1999/naughty-wind-121"
+              demoLink="https://dainty-pavlova-3db9fb.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Sched}
+              imgPath={Shaplink}
               isBlog={false}
-              title="Sched"
-              description="Sched is the all-in-one scheduling app. It is a nifty chrome extension and easily accessible website that improves students' productivity. It features a task organizer based on priority and turning on its focus mode will ensure there are no disturbances during the session as it blocks any distracting websites, while storing information on localstorage. My team (NextGen) won the second prize in NeevHacks."
-              ghLink="https://github.com/Dhruvsr/Sched"
-              demoLink="https://dhruv.is-from.space/1659861963.png"
+              title="ShapeLink"
+              description="Twiik App is a digital fitness log and coach that's always with you. As a member you can log your workouts, track results, follow programs, boost and challenge friends and join social groups for motivation.With The Twiik app you can easily find lots of workout programs to follow. Find the program that suits your needs."
+              techstack="Javascript | CSS | HTML"
+              ghLink="https://github.com/vikalp1999/cosmic-toy-4083"
+              demoLink="https://dainty-pavlova-3db9fb.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Aprendiz}
+              imgPath={yoox}
               isBlog={false}
-              title="Aprendiz"
-              description="Aprendiz is a Chrome Extension that changes certain words on websites (such as wikipedia.com) to help students learn multiple languages such as Spanish, French,Kannada, German and Dutch. Expand your vocabulary in a particular language while browsing the web, and subconciously picking up a language. The extension is made up of JavaScript and HTML, and its relatively easy-to-use interface makes it effortless to add more language support.
-              "
-              ghLink="https://github.com/Dhruvsr/Aprendiz"
-              demoLink="https://dhruv.is-from.space/2021-10-10-20-08-04.mov"
+              title="Yoox"
+              techstack="Javascript | CSS | HTML"
+              description="New Arrivals Every Week to Reinvigorate your Wardrobe, Make the Most of it Now. Shop the Latest Designer Savings Now! A Wide Array of Brands. Expert Customer Care. Secure Payment. Categories: Men's Collection, Women's Collection, Kids' Collection."
+              ghLink="https://github.com/vikalp1999/delightful-approval-9332"
+              demoLink="https://jazzy-pony-5541f4.netlify.app/men.html"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Salus}
+              imgPath={weather}
               isComp={true}
-              title="Project Salus"
-              description="I participated in a climate change-themed science fest organized by Christ Junior College called Project Salus. It involved a series of climate change-themed science challenges which had to be solved using Python within ten minutes. It also involved the creation of a presentation. I won first place for the theme 'Technica Humanitus'. "
-              ghLink="https://dhruv.is-from.space/1659865480.png"
-              demoLink="https://dhruv.is-from.space/1659865480.png"
+              title="Weather app"
+              description="Build an weather App along with live Map & 7days forecast."
+              ghLink="https://github.com/masai-course/vikalp_fw20_0240/tree/master/unit-3/sprint-2/day-3/assignments"
+              demoLink="https://marvelous-cobbler-95615b.netlify.app/"
             />
-          </Col>
+          </Col> */}
 
            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TheGeekly}
+              imgPath={weather}
               isBlog={false}
-              title="The Geekly"
-              description="I co-founded The Geekly, a magazine exploring the universe through the lens of science. 12 issues have been created till date, featuring original and interesting articles. "
-              // ghLink="not needed here"
-              demoLink="https://thegeekly.net" 
+              title="Weather app"
+              description="Build an weather App along with live Map & 7days forecast."
+              techstack="Javascript | CSS | HTML"
+               ghLink="https://github.com/masai-course/vikalp_fw20_0240/tree/master/unit-3/sprint-2/day-3/assignments"
+              demoLink="https://marvelous-cobbler-95615b.netlify.app/" 
             />
           </Col> 
 

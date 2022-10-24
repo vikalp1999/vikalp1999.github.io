@@ -12,6 +12,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineSetting,
+  AiOutlineFilePdf
+
 } from "react-icons/ai";
 import { BiDonateHeart } from "react-icons/bi";
 
@@ -97,15 +99,15 @@ function NavBar() {
             </Nav.Item> */}
 
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://thegeekly.net"
+                href="https://drive.google.com/file/d/1O6LTtq5gZtM58X-j_ik10CchQ6WJa_Ch/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Magazine
+                < AiOutlineFilePdf style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             {/* <Nav.Item className="fork-btn">
               <Button

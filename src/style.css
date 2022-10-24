@@ -449,6 +449,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  background-color: gray;
 }
 
 .project-card {

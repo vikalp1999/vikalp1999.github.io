@@ -4,21 +4,17 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiTerminal,
-  DiPython,
-  DiGit,
   DiCss3,
+  DiMongodb,
+  DiHtml5,
+  DiNodejs,
+  AiFillGithub,
 } from "react-icons/di";
 import {
-  SiFirebase,
-  SiHtml5,
-  SiDiscord,
-  SiTensorflow,
+ SiGithub,
   SiNpm,
-  SiYarn,
-  SiArduino,
-  SiRaspberrypi
+  SiExpress,
+  SiRedux
 } from "react-icons/si";
 import {
   GrHostMaintenance
@@ -28,7 +24,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -40,22 +36,22 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiArduino />
+        <DiMongodb/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiTerminal />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNpm />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRaspberrypi />
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
       </Col>
     </Row>
   );
