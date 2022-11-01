@@ -9,7 +9,7 @@ import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="About">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -64,16 +64,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="mailto:dhruv@thegeekly.net"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaEnvelope />
-                </a>
-              </li> */}
+             
             </ul>
           </Col>
         </Row>

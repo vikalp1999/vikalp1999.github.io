@@ -5,8 +5,9 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Service from "./components/Service/Service";
-
+import Navigator from "./Navigator/Navigator";
 import Footer from "./components/Footer";
+import Home2 from "./components/Home/Home2";
 import {
   BrowserRouter as Router,
   Route,
@@ -35,13 +36,18 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/skills" element={<About />} />
-          {/* <Route path="/service" element={<Service />} /> */}
+          
           <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
+        </Routes> */}
+        <Home/>
+        <Home2 />
+        <About/>
+        <Projects/>
+        <Navigator/>
         <Footer />
       </div>
     </Router>

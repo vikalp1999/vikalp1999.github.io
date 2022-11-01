@@ -12,7 +12,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineSetting,
-  AiOutlineFilePdf
+  AiOutlineFilePdf,
+  AiOutlineUser
 
 } from "react-icons/ai";
 import { BiDonateHeart } from "react-icons/bi";
@@ -30,8 +31,11 @@ function NavBar() {
       updateNavbar(false);
     }
   }
-
+const [nav,setNav]=useState(false)
   window.addEventListener("scroll", scrollHandler);
+  const togglenav=()=>{
+    setNav(!nav)
+  }
 
   return (
     <Navbar
@@ -57,68 +61,36 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+             
+                <AiOutlineHome style={{  marginBottom: "2px" ,color:"white"}} /> <a href="#home" style={{marginBottom: "2px", marginTop :"20px" ,color:"white"}}  onClick={togglenav}>Home</a>
+              
+            </Nav.Item>
+            <Nav.Item>
+             
+             <AiOutlineUser style={{ marginBottom: "2px" ,color:"white"}} /><a href="#About" style={{ marginBottom: "2px" ,color:"white"}}  onClick={togglenav}>About</a> 
+          
+         </Nav.Item>
+
+            <Nav.Item>
+             
+                <AiOutlineSetting style={{ marginBottom: "2px" ,color:"white"}} /><a href="#skills" style={{ marginBottom: "2px" ,color:"white"}}  onClick={togglenav}>Skills</a> 
+             
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/skills"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineSetting style={{ marginBottom: "2px" }} /> Skills
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
+              
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={{ marginBottom: "2px",color:"white" }}
                 />{" "}
-                Projects
-              </Nav.Link>
+                <a href="#project" style={{ marginBottom: "2px" ,color:"white"}} onClick={togglenav}
+                >Projects</a>
+              
             </Nav.Item>
-
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="src\components\Service"
-                onClick={() => updateExpanded(false)}
-              >
-                <BiDonateHeart
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Service
-              </Nav.Link>
-            </Nav.Item> */}
-
-
             <Nav.Item>
-              <Nav.Link
-                href="https://drive.google.com/file/d/1O6LTtq5gZtM58X-j_ik10CchQ6WJa_Ch/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                < AiOutlineFilePdf style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+             
+                < AiOutlineFilePdf style={{ marginBottom: "2px",color:"white" }} /> <a  href="https://drive.google.com/file/d/1O6LTtq5gZtM58X-j_ik10CchQ6WJa_Ch/view?usp=sharing" target="_blank" style={{ marginBottom: "2px" ,color:"white"}} >Resume</a>
+            
             </Nav.Item>
-
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/Dhruvsr"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

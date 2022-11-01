@@ -321,6 +321,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-color: gray;
 }
 
 .home-about-description {
@@ -473,9 +474,9 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px #107a8f !important;
 }
-#about{
-  background: gray;
-}
+/* #about{
+  background: gray; 
+} */
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -551,6 +552,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  background-color: gray;
 }
 
 .tech-icons {

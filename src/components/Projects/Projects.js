@@ -10,7 +10,7 @@ import yoox from "../../Assets/Projects/yoox.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" id="project">
       <Particle />
       <Container>
         <h1 className="project-heading">
