@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.11adc0a5.css",
-    "main.js": "/static/js/main.07b709c8.js",
+    "main.css": "/static/css/main.5a06427c.css",
+    "main.js": "/static/js/main.6240e70b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/my1.png": "/static/media/my1.3a426bd052f3bb4d5458.png",
     "static/media/home-bg1.jpg": "/static/media/home-bg1.c66fa01d3e4f8709813a.jpg",
-    "static/media/yoox.png": "/static/media/yoox.3c5a53eb69604d466278.png",
-    "static/media/brightline.png": "/static/media/brightline.a4ef49c598d2c9fc8e59.png",
+    "static/media/IMDB.png": "/static/media/IMDB.0418498886014da11b74.png",
     "static/media/shapelink.png": "/static/media/shapelink.e3d5c13dc6a937cacb2d.png",
-    "static/media/TheGeekly.png": "/static/media/TheGeekly.c1c066581f1ef0cfa656.png",
-    "static/media/weather.png": "/static/media/weather.1d481568276f4df69be5.png",
+    "static/media/chargenow.png": "/static/media/chargenow.076d6cc0599b9f47cf79.png",
+    "static/media/hubspot.png": "/static/media/hubspot.2423f03f5eb8757a5f8c.png",
     "static/media/pre.svg": "/static/media/pre.eaea65409ade072c94d2.svg",
     "index.html": "/index.html",
-    "main.11adc0a5.css.map": "/static/css/main.11adc0a5.css.map",
-    "main.07b709c8.js.map": "/static/js/main.07b709c8.js.map",
+    "main.5a06427c.css.map": "/static/css/main.5a06427c.css.map",
+    "main.6240e70b.js.map": "/static/js/main.6240e70b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11adc0a5.css",
-    "static/js/main.07b709c8.js"
+    "static/css/main.5a06427c.css",
+    "static/js/main.6240e70b.js"
   ]
 }
