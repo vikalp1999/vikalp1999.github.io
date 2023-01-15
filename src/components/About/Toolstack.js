@@ -20,9 +20,6 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiArchlinux />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiReact />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiInkscape />
       </Col>

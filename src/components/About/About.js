@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
+import Stats from "./gitStatics";
 import Techstack from "./Techstack";
 
 
@@ -26,7 +27,7 @@ function About() {
         </h1>
 
         <Techstack />
-
+        <Stats/>
         <Github />
       </Container>
     </Container>

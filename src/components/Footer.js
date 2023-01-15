@@ -40,16 +40,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="mailto:dhruv@thegeekly.net"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <BiEnvelope />
-              </a>
-            </li> */}
+            
           </ul>
         </Col>
       </Row>

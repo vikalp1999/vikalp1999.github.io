@@ -25,47 +25,19 @@ function Home2() {
               I started learning web development in 2022.I am always motivated to learn 
               new things.I am a Kabbadi player also and  i like to watch movies and webseries.
               <br />
-               
+              <br/>
+               Phone no:-+919462531637
+               <br/>
+               Email :- shandilyavikalp@gmail.com
                <br/>
 
              
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" style={{marginBottom:"80px"}}>
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar"  />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>Connect with me</h1>
-            <p>
-              I'm available on these platforms 
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/vikalp1999"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/vikalp-shandilya-623650176/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-             
-            </ul>
           </Col>
         </Row>
       </Container>

@@ -16,6 +16,7 @@ import {
   AiOutlineUser
 
 } from "react-icons/ai";
+import {MdOutlineContactPhone} from "react-icons/md"
 import { BiDonateHeart } from "react-icons/bi";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -62,18 +63,19 @@ const [nav,setNav]=useState(false)
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
              
-                <AiOutlineHome style={{  marginBottom: "2px" ,color:"white"}} /> <a href="#home" style={{marginBottom: "2px", marginTop :"20px" ,color:"white"}}  onClick={togglenav}>Home</a>
+                <AiOutlineHome style={{  marginBottom: "2px" ,color:"white"}} /> <a href="#home" style={{marginBottom: "2px", marginTop :"20px" ,color:"white",textDecoration:"none"}}  onClick={togglenav}>Home</a>
               
             </Nav.Item>
             <Nav.Item>
              
-             <AiOutlineUser style={{ marginBottom: "2px" ,color:"white"}} /><a href="#About" style={{ marginBottom: "2px" ,color:"white"}}  onClick={togglenav}>About</a> 
+             <AiOutlineUser style={{ marginBottom: "2px" ,color:"white"}} /><a href="#About" style={{ marginBottom: "2px" ,color:"white",textDecoration:"none"}}  onClick={togglenav}>About</a> 
           
          </Nav.Item>
+        
 
             <Nav.Item>
              
-                <AiOutlineSetting style={{ marginBottom: "2px" ,color:"white"}} /><a href="#skills" style={{ marginBottom: "2px" ,color:"white"}}  onClick={togglenav}>Skills</a> 
+                <AiOutlineSetting style={{ marginBottom: "2px" ,color:"white"}} /><a href="#skills" style={{ marginBottom: "2px" ,color:"white",textDecoration:"none"}}  onClick={togglenav}>Skills</a> 
              
             </Nav.Item>
 
@@ -82,13 +84,19 @@ const [nav,setNav]=useState(false)
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px",color:"white" }}
                 />{" "}
-                <a href="#project" style={{ marginBottom: "2px" ,color:"white"}} onClick={togglenav}
+                <a href="#project" style={{ marginBottom: "2px" ,color:"white",textDecoration:"none"}} onClick={togglenav}
                 >Projects</a>
               
             </Nav.Item>
             <Nav.Item>
              
-                < AiOutlineFilePdf style={{ marginBottom: "2px",color:"white" }} /> <a  href="https://drive.google.com/file/d/1O6LTtq5gZtM58X-j_ik10CchQ6WJa_Ch/view?usp=sharing" target="_blank" style={{ marginBottom: "2px" ,color:"white"}} >Resume</a>
+             <MdOutlineContactPhone style={{ marginBottom: "2px" ,color:"white"}} /><a href="#contact" style={{ marginBottom: "2px" ,color:"white",textDecoration:"none",marginLeft:"5px"}}  onClick={togglenav}>Contact</a> 
+          
+         </Nav.Item>
+            
+            <Nav.Item>
+             
+                < AiOutlineFilePdf style={{ marginBottom: "2px",color:"white" }} /> <a  href="https://drive.google.com/u/0/uc?id=1O6LTtq5gZtM58X-j_ik10CchQ6WJa_Ch&export=download"  style={{ marginBottom: "2px" ,color:"white",textDecoration:"none"}} >Resume</a>
             
             </Nav.Item>
           </Nav>

@@ -314,19 +314,23 @@ button:focus {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+  
   }
 }
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
-  background-color: gray;
+  padding-bottom: 5px !important;
+  padding-top: 0px !important;
+  background-color:gray;
+  display: grid;
+  align-items: center;
+  
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 20px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }

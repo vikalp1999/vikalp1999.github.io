@@ -18,6 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "./components/contact/contact";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -36,19 +37,14 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/skills" element={<About />} />
-          
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes> */}
         <Home/>
         <Home2 />
-        <About/>
+         <About/>
         <Projects/>
+        <Contact/>
         <Navigator/>
         <Footer />
+       
       </div>
     </Router>
   );
