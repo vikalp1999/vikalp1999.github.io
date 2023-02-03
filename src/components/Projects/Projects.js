@@ -6,6 +6,8 @@ import Chargenow from "../../Assets/Projects/chargenow.png"
 import Hubspot from "../../Assets/Projects/hubspot.png";
 import IMDB from "../../Assets/Projects/IMDB.png";
 import Shapelink from "../../Assets/Projects/shapelink.png";
+import Next from "../../Assets/Projects/next.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section" id="project">
@@ -51,9 +53,20 @@ function Projects() {
               demoLink="https://animated-narwhal-cecc2b.netlify.app/"
             />
           </Col>
-
-
-<Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Next}
+              isBlog={false}
+              title="Next.in"
+              description="NextIn brings all your tasks, teammates, and tools together
+              Collaborate with your team on any project with your tasks, and schedule all in one place.
+              "
+              techstack="Next JS | JavaScript | Express JS | Node JS | MongoDB | JSON Web Token | Chakra UI | Redux "
+              ghLink="https://github.com/vikalp1999/cosmic-toy-4083"
+              demoLink="https://dainty-pavlova-3db9fb.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Shapelink}
               isBlog={false}
@@ -64,6 +77,7 @@ function Projects() {
               demoLink="https://dainty-pavlova-3db9fb.netlify.app/"
             />
           </Col>
+
 
         </Row>
       </Container>
