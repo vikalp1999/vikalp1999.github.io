@@ -23,7 +23,7 @@ function Home2() {
              My Name is Vikalp Shandialya
               <br />I am a Full Stack Web Developer living in Kota,Rajasthan.
               I started learning web development in 2022.I am always motivated to learn 
-              new things.I am a Kabbadi player also and  i like to watch movies and webseries.
+              new things.I am a Kabbadi player also and  I like to watch movies and webseries.
               <br />
               <br/>
                Phone no:-+919462531637

@@ -5,20 +5,20 @@ import {MdEmail} from "react-icons/md"
 import "./contact.css"
 const Contact = () => {
   return (
-    <section className='section contact center' id='contact'  style={{padding:"40px", backgroundColor:"rgb(24,24,24)"}} >
-      <h2 className='section__title ' style={{textAlign:"center",marginBottom:"20px",color:"white"}}>GET IN <span className='about_contact' style={{color:"white"}}>TOUCH</span> </h2>
+    <section className='section contact center' id='contact' >
+    <h2 className='section__title ' >GET IN <span className='about_contact'>TOUCH</span> </h2>
 
-      <div id='cont'>
+    <div id='cont'>
 
-        <a href="https://www.linkedin.com/in/vikalp-shandilya-623650176/" target="_blank" aria-label='linkedin' className='link link--icon' style={{marginLeft:"280px",color:"white"}}> <FaLinkedin size={60}/> </a>
-        <a href="https://github.com/vikalp1999" target="_blank" aria-label='github' className='link link--icon' style={{color:"white"}}> <BsGithub  size={60}/> </a>
-      
-        <a href='mailto:shandilyavikalp@gmail.com' aria-label="email" className='link link--icon' style={{color:"white"}}> <MdEmail  size={60}/> </a>
+      <a href="https://www.linkedin.com/in/rishunayak/" target="_blank" aria-label='linkedin' className='link link--icon'> <FaLinkedin size={60}/> </a>
+      <a href="https://github.com/rishunayak" target="_blank" aria-label='github' className='link link--icon'> <BsGithub  size={60}/> </a>
+    
+      <a href='mailto:rishunayak22@gmail.com' aria-label="email" className='link link--icon'> <MdEmail  size={60}/> </a>
 
-         <a href='tel:+919462531637' aria-label="phone" className='link link--icon' style={{color:"white"}}> <FaPhone size={60}/> </a>
-      </div>
-     
-    </section>
+       <a href='tel:+918957736763' aria-label="phone" className='link link--icon'> <FaPhone size={60}/> </a>
+    </div>
+   
+  </section>
   )
 }
 
