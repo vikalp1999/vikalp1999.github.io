@@ -62,8 +62,8 @@ function Projects() {
               Collaborate with your team on any project with your tasks, and schedule all in one place.
               "
               techstack="Next JS | JavaScript | Express JS | Node JS | MongoDB | JSON Web Token | Chakra UI | Redux "
-              ghLink="https://github.com/vikalp1999/cosmic-toy-4083"
-              demoLink="https://dainty-pavlova-3db9fb.netlify.app/"
+              ghLink="https://github.com/vikalp1999/next-in"
+              demoLink="https://next-g00y1v67s-vikalp1999.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
