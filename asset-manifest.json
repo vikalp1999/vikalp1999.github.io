@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.61bccc9b.css",
-    "main.js": "/static/js/main.0e2f36cf.js",
+    "main.css": "/static/css/main.18bfdd28.css",
+    "main.js": "/static/js/main.884a82ba.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/my1.png": "/static/media/my1.3a426bd052f3bb4d5458.png",
-    "static/media/home-bg1.jpg": "/static/media/home-bg1.c66fa01d3e4f8709813a.jpg",
+    "static/media/vikalp.png": "/static/media/vikalp.3a426bd052f3bb4d5458.png",
     "static/media/IMDB.png": "/static/media/IMDB.0418498886014da11b74.png",
-    "static/media/shapelink.png": "/static/media/shapelink.e3d5c13dc6a937cacb2d.png",
-    "static/media/chargenow.png": "/static/media/chargenow.076d6cc0599b9f47cf79.png",
-    "static/media/next.png": "/static/media/next.c62c7453a27c8ec423cc.png",
+    "static/media/Caveat-VariableFont_wght.ttf": "/static/media/Caveat-VariableFont_wght.834178e16d110b21c85e.ttf",
+    "static/media/Kanit-Regular.ttf": "/static/media/Kanit-Regular.f3bae13d78ced30b6ea3.ttf",
+    "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/static/media/SpaceGrotesk-VariableFont_wght.1036357b9651eff7d3dd.ttf",
     "static/media/hubspot.png": "/static/media/hubspot.2423f03f5eb8757a5f8c.png",
-    "static/media/pre.svg": "/static/media/pre.eaea65409ade072c94d2.svg",
     "index.html": "/index.html",
-    "main.61bccc9b.css.map": "/static/css/main.61bccc9b.css.map",
-    "main.0e2f36cf.js.map": "/static/js/main.0e2f36cf.js.map",
+    "main.18bfdd28.css.map": "/static/css/main.18bfdd28.css.map",
+    "main.884a82ba.js.map": "/static/js/main.884a82ba.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61bccc9b.css",
-    "static/js/main.0e2f36cf.js"
+    "static/css/main.18bfdd28.css",
+    "static/js/main.884a82ba.js"
   ]
 }
